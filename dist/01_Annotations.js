@@ -1,4 +1,5 @@
 "use strict";
+// Annotations in TypeScript
 // Strings
 let myName = "Amith";
 myName = "Vikram";

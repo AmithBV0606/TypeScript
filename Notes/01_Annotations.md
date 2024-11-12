@@ -46,20 +46,6 @@ If we try to assign a non-boolean value to isCompleted, TypeScript will show an 
 let isCompleted: boolean = "not yet"; // Error: Type 'string' is not assignable to type 'boolean'.
 ```
 
-# Type Inference
-
-Type inference is a feature in TypeScript that allows the compiler to automatically determine the type of a variable based on its value. In other words, if you declare a variable without explicitly specifying its type, TypeScript will try to infer the type based on the value you assign to it.
-
-Here's an example:
-
-```ts
-let myString = "Hello, world!";
-```
-
-In this example, we're declaring a variable myString without specifying its type. However, since we're assigning a string value to it, TypeScript will infer that myString has a type of string.
-
-Type inference can help reduce boilerplate code and make your code more concise, but it's important to remember that it's not always perfect and sometimes you may need to explicitly annotate variables to avoid unexpected behavior.
-
 # Any Type
 
 TypeScript has a special any type that can be used to represent any type. When a variable is annotated with the any type, TypeScript will allow it to have any value and disable all type checking for that variable and its properties.

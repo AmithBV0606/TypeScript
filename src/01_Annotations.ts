@@ -1,3 +1,5 @@
+// Annotations in TypeScript
+
 // Strings
 
 let myName : string = "Amith";
