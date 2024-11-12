@@ -1,1 +1,1 @@
-{"root":["./src/01_annotations.ts","./src/02_typeinference.ts"],"version":"5.6.3"}
+{"root":["./src/01_annotations.ts","./src/02_typeinference.ts","./src/03_any.ts"],"version":"5.6.3"}
