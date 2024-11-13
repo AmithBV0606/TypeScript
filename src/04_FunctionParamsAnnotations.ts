@@ -4,7 +4,6 @@
 function addOne(num:number) {
     return num + 1;
 }
-
 const res1 = addOne(5);
 console.log(res1)
 
