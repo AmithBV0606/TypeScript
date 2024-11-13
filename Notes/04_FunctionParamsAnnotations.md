@@ -2,12 +2,19 @@
 
 Function parameter annotations in TypeScript are used to specify the expected types of the parameters that a function takes.
 
+Here's an example:
+
 ```ts
 // Regular Function
-function addOne(num:number) {
-    return num + 1;
+function greet(name: string) {
+  console.log(`Hello, ${name}!`);
 }
-
-// Arrow Function
-const double = (x: number, y: number) => x * y;
 ```
+
+In this example, we're declaring a function greet with a single parameter name. The name parameter is annotated with the type string, which means that it can only accept string values.
+
+```ts
+greet(42); // Error: Argument of type 'number' is not assignable to parameter of type 'string'.
+```
+
+If we call the greet function with a non-string value, TypeScript will show an error.
