@@ -1,1 +1,1 @@
-{"root":["./src/01_annotations.ts","./src/02_typeinference.ts","./src/03_any.ts","./src/04_functionparamsannotations.ts","./src/05_defaultparametervalue.ts","./src/06_returnannotations.ts"],"version":"5.6.3"}
+{"root":["./src/01_annotations.ts","./src/02_typeinference.ts","./src/03_any.ts","./src/04_functionparamsannotations.ts","./src/05_defaultparametervalue.ts","./src/06_returnannotations.ts","./src/07_void.ts"],"version":"5.6.3"}
