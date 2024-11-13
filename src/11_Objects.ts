@@ -23,3 +23,12 @@ function printUser(): { name: string; age: number; country: string } {
 }
 const res6 = printUser();
 console.log(res6);
+
+// _________________________________________________________________________________
+
+// Example 3 : Object as parameters
+function printUserName(person: { firstName: string; lastName: string }) {
+  console.log(`${person.firstName} ${person.lastName}`);
+}
+
+printUserName({ firstName: "Amith", lastName: "Software Engineer" });
