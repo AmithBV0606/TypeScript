@@ -1,5 +1,5 @@
 "use strict";
-// Extending Interfaces in TypeScript
+// Extending Interfaces in TypeScript or Combibing 2 Interfaces
 const movie1 = {
     name: "John Wick",
     ratings: 7,

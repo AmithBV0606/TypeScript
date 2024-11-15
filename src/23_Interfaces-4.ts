@@ -1,4 +1,4 @@
-// Extending Interfaces in TypeScript
+// Extending Interfaces in TypeScript or Combibing 2 Interfaces
 
 // Extending is just like Intersection of Type aliases
 

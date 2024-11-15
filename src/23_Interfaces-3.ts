@@ -1,4 +1,4 @@
-// Interfaces with Methods
+// Methods inside an Interface
 
 // Example 1 : 
 interface Person1 {

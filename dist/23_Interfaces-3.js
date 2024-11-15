@@ -1,5 +1,5 @@
 "use strict";
-// Interfaces with Methods
+// Methods inside an Interface
 function greet1(person) {
     console.log(`Hello, ${person.firstname} ${person.lastname}!!`);
     person.sayHello();
